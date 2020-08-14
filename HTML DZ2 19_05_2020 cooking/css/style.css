@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'FrakturOmniv';
+    src: url('fonts/FrakturOmniv1.woff2') format('woff2'),
+        url('fonts/FrakturOmniv1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LIBRARY3AM';
+    src: url('fonts/LIBRARY3AM.woff2') format('woff2'),
+        url('fonts/LIBRARY3AM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LIBRARY3AMsoft';
+    src: url('fonts/LIBRARY3AMsoft.woff2') format('woff2'),
+        url('fonts/LIBRARY3AMsoft.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Perfograma';
+    src: url('fonts/Perfograma.woff2') format('woff2'),
+        url('fonts/Perfograma.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    color: rgb(226, 87, 52);
+    text-align: center;
+    font-family: 'LIBRARY3AM';
+}
+
+.FrakturOmniv{
+    font-family: FrakturOmniv;
+    text-align: center;
+}
+
+.blue-font{
+    color: rgb(85, 43, 182);
+    text-align: center;
+    font-family: 'LIBRARY3AMsoft'; 
+}
+
+h3{
+    color: rgb(158, 45, 19);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: Perfograma;
+    text-decoration: underline;
+}
+
+.bolder{
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.right-side{
+    text-align: right;
+}
+
+p{
+    text-indent: 40px;
+}
+
+footer{
+    width: 22%;
+    outline: 2px solid rgb(196, 61, 8);
+    color: rgb(196, 61, 8);
+}
+
+footer section{
+    font-size: x-large;
+    padding: 10px;
+    font-style: italic;
+    text-align: left;    
+}

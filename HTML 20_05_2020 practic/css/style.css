@@ -1,0 +1,28 @@
+
+
+
+.disk li {
+    list-style-type: disc;
+}
+
+.circle li {
+    list-style-type: circle;
+}
+.square li{
+    list-style-type: square;
+}
+.lowwer-latin li{
+    list-style-type: lower-latin;
+}
+
+.big-latin li{
+    list-style-type: upper-latin;
+}
+
+.i-letter li{
+    list-style-type: lower-roman;
+}
+
+.rome li{
+    list-style-type: upper-roman;
+}

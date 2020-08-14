@@ -1,0 +1,73 @@
+header {
+  background-color: #b0a3a9;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.myMenu {
+  min-height: 120px;
+  background-color: #b0a3a9;
+}
+
+.menuBtn button {
+  text-transform: uppercase;
+}
+
+.newProduct {
+  min-height: 260px;
+  background-color: #eae7e8;
+}
+
+.secondFrozen {
+  position: absolute;
+  top: 52px;
+}
+
+.btn-link {
+  background-color: #c8c10d;
+  color: #eae7e8;
+}
+
+.yellowSection {
+  background-color: #c8c10d;
+  min-height: 150px;
+}
+
+.itemMenus {
+  padding: 30px;
+  min-height: 90px;
+}
+
+.itemMenus i {
+  size: 20px;
+}
+
+.contentCentr {
+  justify-content: center;
+}
+
+.footer {
+  background-color: #d82b62;
+  min-height: 180px;
+}
+
+.iconsBtn {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1 solid white;
+  text-align: center;
+  margin: 20px;
+}
+
+.myBtn {
+  margin: 0;
+  padding: 0 7px;
+}
+
+.colorIconFAS {
+  color: #d82b62;
+}

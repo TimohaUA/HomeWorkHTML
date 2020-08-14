@@ -1,0 +1,49 @@
+div {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(40, 188, 238);
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 15%;
+    min-width: 180px;
+}
+
+h4{
+    margin: 0 0 0 15px;
+    padding: 0 0 0 5px;
+    font-weight: normal;
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+ul li {
+    margin-left: 15px;
+    border-top: solid gray 1px;
+    box-shadow: 10px 0 0 rgb(220, 246, 255) inset;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.five {
+    border-bottom: solid gray 1px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+
+ul li:hover {
+   background-color: rgba(128, 128, 128, 0.589);
+}

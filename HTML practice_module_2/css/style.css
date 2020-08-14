@@ -1,0 +1,113 @@
+.arrow {
+    list-style-image: url(../icons/arrow_icon.png);
+}
+
+.winter li {
+    list-style-image: url(../icons/winter_16.png);
+}
+
+.spring li {
+    list-style-image: url(../icons/spring_16.png);
+}
+
+.summer li {
+    list-style-image: url(../icons/summer_16.png);
+}
+
+.autumn li {
+    list-style-image: url(../icons/autumn_16.png);
+}
+
+.big-rome {
+    list-style-type: none;
+    counter-reset: counter;
+}
+
+.big-rome li{
+    list-style-type: none;
+    counter-increment: counter;
+    color: blueviolet;  
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.big-rome li::before{
+    content: counter(counter, upper-roman)". ";
+    font-weight: bolder;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;       
+}
+
+
+.numerator {
+    list-style-type: none;
+    counter-reset: counter;
+}
+
+.numerator li {
+    list-style-type: none;
+    counter-increment: counter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.numerator li::before {
+    content: counter(counter, decimal)".  ";
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.lowwer-latin {
+    list-style-type: none;
+    counter-reset: counter;
+}
+
+.lowwer-latin li {
+    list-style-type: none;
+    counter-increment: counter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lowwer-latin li::before {
+    content: counter(counter, lower-latin)".  ";
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.head{
+    background-color: rgb(14, 73, 78);
+    color: white;
+    padding: 1%;
+    padding-left: 5%;
+
+}
+
+.text{
+    background-color: rgb(35, 97, 103);
+    margin: 0;
+    color: white;
+    text-align: justify;
+    padding: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.main{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.down{
+    width: 90%;
+    text-align: justify;
+}
+
+sup{
+    color: rgb(214, 74, 23);
+}
+
+a{
+    text-decoration: none;
+}

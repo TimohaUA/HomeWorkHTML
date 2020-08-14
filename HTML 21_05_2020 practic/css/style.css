@@ -1,0 +1,36 @@
+body{
+    background-image: url(../images/abstract-wallpaper-white-background.jpg);  
+    background-size: cover;  
+    background-repeat: no-repeat;
+}
+
+.float-left img{
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 3;
+}
+
+p{
+    font-style: italic;
+}
+
+span{
+    font-weight: bolder;
+}
+
+.clear{
+    clear: both;
+}
+
+.centr{
+    margin-left: 20%;
+}
+
+img{
+    margin-left: 1%;
+}

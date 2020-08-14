@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+}
+
+p{
+    color: white;
+}
+
+h3{
+    font-size: 30px;
+    margin: 20px 0 0 0;
+}
+
+h5{
+    font-size: 17px;
+    margin: 0px 0px 30px 0;
+}
+
+.colour{
+    color: rgba(169, 169, 169, 0.466);
+}
+
+.containerMenu {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+.container {
+    width: 600px;
+}
+
+.opacity {
+    color: white;
+}
+
+.opacity:hover {
+    color: rgb(100, 97, 97);
+}
+.text{
+    color: white;
+}
+
+a{
+    padding: 0;
+}
+
+.first{
+    background-color: #d16503;
+}
+.circle-first{
+    border-radius: 50%;
+    padding: 10px;
+    background-color:   #ff7c027a;
+}
+
+.second{
+    background-color:  #e6982b;
+}
+.circle-second{
+    border-radius: 100%;
+    padding: 10px;
+    background-color:#fcbe6862;
+}
+
+.third{
+    background-color: #1691bd;
+}
+.circle-third{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #21c3fd5e;
+}
+
+.fourth{
+    background-color: #166ba2;
+}
+.circle-fourth{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #219aeb60;
+}
+
+.fifth{
+    background-color: #1b3647dc;
+}
+.circle-fifth{
+    border-radius: 50%;
+    padding: 10px;
+    background-color:#3d7ba149;
+}
+
+.sixth{
+    background-color: #0c293de5;
+}
+.circle-sixth{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #1c649467;
+}

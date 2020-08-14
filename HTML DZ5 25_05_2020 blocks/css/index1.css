@@ -1,0 +1,47 @@
+.win {
+    height: 90%;
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.upper {
+    height: 10%;
+    border: 3px solid black;
+    margin: 1%;
+}
+
+.footer {
+    height: 80%;
+    display: flex;
+    align-items: stretch;
+}
+
+.left,.right {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 25%;
+    margin: 1%;
+}
+
+.centr {
+    height: 100%;
+    width: 50%;
+    margin: 1%;
+    border: 3px solid black;
+}
+
+.el {
+    margin-bottom: 3%;
+    height: 34%;
+    border: 3px solid black;
+}
+
+.end{
+    margin-bottom: 0;
+}
